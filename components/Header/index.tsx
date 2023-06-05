@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import clsx from "clsx";
 import { Container, Logo } from "components";
 import { useOnClickOutside } from "lib";

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 
 export const useHover = <T extends unknown>(): [

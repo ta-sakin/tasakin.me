@@ -4,8 +4,6 @@ import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
 import { FaReact } from "react-icons/fa";
 import {
-  SiDjango,
-  SiDocker,
   SiGraphql,
   SiHasura,
   SiMicrosoftazure,
@@ -13,14 +11,7 @@ import {
 } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
-import {
-  AwsIcon,
-  EthereumIcon,
-  HasuraIcon,
-  MongoIcon,
-  PostgresIcon,
-  TsIcon,
-} from "./libs/Icons";
+import { MongoIcon, PostgresIcon, TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -89,7 +80,6 @@ export const Skills: FC = () => {
       <Container>
         <div
           className="max-w-lg mt-8 grid grid-cols-2 sm:grid-cols-4 gap-6"
-          // className="max-w-lg mt-8 grid grid-cols-2 lg:grid-cols-5 gap-6"
           ref={ref}
         >
           {skills.map((skill, i) => (
