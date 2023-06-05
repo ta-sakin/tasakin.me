@@ -1,0 +1,44 @@
+{
+  "headTitle": "Home | tasakin",
+  "header": "Home",
+  "hero": {
+    "title": "Hi, I'm Sakin!",
+    "p0": "Full Stack Developer",
+    "p1": "Software Developer at",
+    "des0": "I'm a Software Developer with a keen focus on crafting cutting-edge web applications.",
+    "des1": "I love collaborating in teams to create high-quality and sophisticated software.",
+    "des2": "Though I'm always open to adjust to any tech stacks but my preferred web stack involves React, NodeJS and TypeScript.",
+    "des3": "I'm currently learning more about backend engineering and networking."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of my favourite projects that I've lead and developed collaborating with a team or alone. Most of the projects were build to address real-world scenarios.",
+
+    "cms": {
+      "subtitle": "Complaints Mangement and Classification System",
+      "description": "A social media flabored citizens complaints management system"
+    },
+    "redditTimify": {
+      "subtitle": "Reddit Timify",
+      "description": "Get the best time to post on Reddit."
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "While I eagerly embrace any latest technologies, the following tools have consistently proven their worth in every project I undertake."
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "I've had the honour of working as a Software developer building full-stack web applications at this amazing company"
+  },
+  "contact": {
+    "title": "Want to connect?",
+    "description": "I highly appreciate when people make an effort to get in touch. I'll make sure to get back to you as soon as possible!"
+  },
+  "currently": "Currently",
+  "citation": {
+    "content": "Sakin debugs in his dreams",
+    "author": "— ChatGPT"
+  },
+  "footer": ""
+}
