@@ -7,7 +7,7 @@
 
 ## ✨ Inspiration
 
-This project has been heavily inspired from [ironsoul.lol]('https://github.com/ironsoul0/ironsoul.ninja').
+This project has been heavily inspired from [ironsoul.lol](https://github.com/ironsoul0/ironsoul.ninja).
 
 ## 🛠 Wanna run on your machine?
 
