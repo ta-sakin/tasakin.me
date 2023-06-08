@@ -64,9 +64,7 @@ export const Hero: FC = () => {
           {t("hero.des0")}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des1")}
-          <br />
-          {t("hero.des2")}
+          {t("hero.des1")} {t("hero.des2")}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
           {t("hero.des3")}

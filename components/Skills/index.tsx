@@ -11,7 +11,13 @@ import {
 } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
-import { MongoIcon, PostgresIcon, TsIcon } from "./libs/Icons";
+import {
+  FirebaseIcon,
+  MongoIcon,
+  PostgresIcon,
+  ReduxIcon,
+  TsIcon,
+} from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -24,6 +30,11 @@ const skills = [
     name: "React",
     href: "https://reactjs.org/",
     icon: <FaReact color="#00D8FF" />,
+  },
+  {
+    name: "Redux",
+    href: "https://redux.js.org//",
+    icon: <ReduxIcon />,
   },
   {
     name: "Node.js",
@@ -55,6 +66,11 @@ const skills = [
     href: "https://portal.azure.com/",
     icon: <SiMicrosoftazure color="#007fff" />,
   },
+  {
+    name: "Firebase",
+    href: "https://firebase.google.com/",
+    icon: <FirebaseIcon />,
+  },
 ];
 
 export const Skills: FC = () => {
@@ -79,7 +95,7 @@ export const Skills: FC = () => {
     >
       <Container>
         <div
-          className="max-w-lg mt-8 grid grid-cols-2 sm:grid-cols-4 gap-6"
+          className="max-w-xl mt-8 grid grid-cols-2 sm:grid-cols-5 gap-6"
           ref={ref}
         >
           {skills.map((skill, i) => (

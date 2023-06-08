@@ -9,7 +9,7 @@ export const Footer: FC = () => {
         <a
           href="https://github.com/ta-sakin/tasakin.me"
           target="_blank"
-          className="hover:opacity-80 transition-opacity"
+          className="flex items-center justify-center hover:opacity-80 transition-opacity gap-1"
           rel="noreferrer"
         >
           <FaGithub className="w-6 h-6" />
