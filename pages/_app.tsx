@@ -1,5 +1,6 @@
 import "../styles/index.scss";
 
+import { Analytics } from "@vercel/analytics/react";
 import { Layout } from "components";
 import { AppProps } from "next/app";
 import Head from "next/head";
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </ThemeProvider>
   );
 }
