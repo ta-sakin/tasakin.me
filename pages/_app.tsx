@@ -20,6 +20,7 @@ const keywords = [
   "IIUC",
   "parentheses",
   "prativa",
+  "tasakin",
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {
