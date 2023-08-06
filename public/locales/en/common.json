@@ -8,14 +8,14 @@
     "des0": "I'm a Software Developer with a keen focus on crafting cutting-edge web applications.",
     "des1": "I love solving problems and collaborating in teams to create high-quality and sophisticated software.",
     "des2": "Though I'm always open to adjust to any tech stacks but my preferred tech stack involves React, NodeJS and TypeScript.",
-    "des3": "I'm currently learning more about backend engineering and networking."
+    "des3": "I'm currently learning more about AI and Backend engineering."
   },
   "projects": {
     "title": "Projects",
     "description": "Here are some of my favourite projects that I've lead and developed collaborating with a team or alone. Most of the projects were build to address real-world scenarios.",
 
     "cms": {
-      "subtitle": "Complaints Mangement and Classification System",
+      "subtitle": "Complaints Management and Classification System",
       "description": "A social media flavored citizens complaints management system"
     },
 
@@ -26,11 +26,11 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "While I eagerly embrace any latest technologies, the following tools have consistently proven their worth in every project I undertake."
+    "description": "While I eagerly embrace any latest technologies, these are the tools I have mostly utilized in my day-to-day work."
   },
   "experience": {
     "title": "Experience",
-    "description": "I've had the honour of working as a Software developer building full-stack web applications at this amazing company"
+    "description": "I've been privileged to work as a Software developer delivering full-stack web applications at this phenomenal company"
   },
   "contact": {
     "title": "Want to connect?",

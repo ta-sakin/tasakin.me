@@ -6,18 +6,13 @@ import { FaReact } from "react-icons/fa";
 import {
   SiGraphql,
   SiHasura,
+  SiJavascript,
   SiMicrosoftazure,
   SiNodedotjs,
 } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
-import {
-  FirebaseIcon,
-  MongoIcon,
-  PostgresIcon,
-  ReduxIcon,
-  TsIcon,
-} from "./libs/Icons";
+import { MongoIcon, PostgresIcon, PythonIcon, TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -27,15 +22,25 @@ const skills = [
     icon: <TsIcon />,
   },
   {
+    name: "Javascript",
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    icon: <SiJavascript color="#f7df1e" />,
+  },
+  {
+    name: "Python",
+    href: "https://www.python.org/",
+    icon: <PythonIcon />,
+  },
+  {
     name: "React",
     href: "https://reactjs.org/",
     icon: <FaReact color="#00D8FF" />,
   },
-  {
-    name: "Redux",
-    href: "https://redux.js.org//",
-    icon: <ReduxIcon />,
-  },
+  // {
+  //   name: "Redux",
+  //   href: "https://redux.js.org//",
+  //   icon: <ReduxIcon />,
+  // },
   {
     name: "Node.js",
     href: "https://nodejs.org/",
@@ -66,11 +71,11 @@ const skills = [
     href: "https://portal.azure.com/",
     icon: <SiMicrosoftazure color="#007fff" />,
   },
-  {
-    name: "Firebase",
-    href: "https://firebase.google.com/",
-    icon: <FirebaseIcon />,
-  },
+  // {
+  //   name: "Firebase",
+  //   href: "https://firebase.google.com/",
+  //   icon: <FirebaseIcon />,
+  // },
 ];
 
 export const Skills: FC = () => {
@@ -95,7 +100,7 @@ export const Skills: FC = () => {
     >
       <Container>
         <div
-          className="max-w-xl mt-8 grid grid-cols-2 sm:grid-cols-5 gap-6"
+          className="max-w-2xl mt-8 grid grid-cols-2 sm:grid-cols-5 gap-6"
           ref={ref}
         >
           {skills.map((skill, i) => (

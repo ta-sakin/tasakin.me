@@ -34,7 +34,7 @@ export const ProjectCard: FC<Props> = ({
           >
             {title}
           </a>
-          <p className="text-base font-medium md:text-xl dark:text-white-700 text-black-700">
+          <p className="text-base font-medium md:text-xl dark:text-gray-700 text-black-700">
             {subtitle}
           </p>
         </div>
@@ -93,7 +93,7 @@ export const ProjectCard: FC<Props> = ({
         initial="initial"
       >
         <img
-          className=" object-cover w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80"
+          className="object-cover w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80 "
           src={imageLink}
           alt={title}
           style={{
