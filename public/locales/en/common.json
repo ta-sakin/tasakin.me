@@ -14,8 +14,12 @@
     "title": "Projects",
     "description": "Here are some of my favourite projects that I've lead and developed collaborating with a team or alone. Most of the projects were build to address real-world scenarios.",
 
+    "ytchat": {
+      "subtitle": "Chat with Youtube Videos",
+      "description": "An AI chatbot that allows users to chat with Youtube videos."
+    },
     "cms": {
-      "subtitle": "Complaints Management and Classification System",
+      "subtitle": "Complaints Management System",
       "description": "A social media flavored citizens complaints management system"
     },
 

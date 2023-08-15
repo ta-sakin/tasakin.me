@@ -10,6 +10,15 @@ export const Projects: FC = () => {
   const projects = useMemo(
     () => [
       {
+        title: "YT-Chat",
+        subtitle: t("projects.ytchat.subtitle"),
+        description: t("projects.ytchat.description"),
+        technologies: ["Python", "Streamlit"],
+        externalLink: "https://yt-chat.streamlit.app/",
+        githubLink: "https://github.com/ta-sakin/yt-chat",
+        imageLink: `/images/ytchat.png`,
+      },
+      {
         title: "CMS APP",
         subtitle: t("projects.cms.subtitle"),
         description: t("projects.cms.description"),
