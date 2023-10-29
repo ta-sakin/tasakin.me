@@ -5,14 +5,21 @@ import React, { FC, useEffect } from "react";
 import { FaReact } from "react-icons/fa";
 import {
   SiGraphql,
-  SiHasura,
+  // SiHasura,
   SiJavascript,
-  SiMicrosoftazure,
   SiNodedotjs,
+  // SiMicrosoftazure,
 } from "react-icons/si";
+// import { TbBrandNextjs } from "react-icons/tb";
 import { useInView } from "react-intersection-observer";
 
-import { MongoIcon, PostgresIcon, PythonIcon, TsIcon } from "./libs/Icons";
+import {
+  AWSIcon,
+  MongoIcon,
+  PostgresIcon,
+  PythonIcon,
+  TsIcon,
+} from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -31,16 +38,17 @@ const skills = [
     href: "https://www.python.org/",
     icon: <PythonIcon />,
   },
+
   {
-    name: "React",
+    name: "React.js",
     href: "https://reactjs.org/",
     icon: <FaReact color="#00D8FF" />,
   },
-  // {
-  //   name: "Redux",
-  //   href: "https://redux.js.org//",
-  //   icon: <ReduxIcon />,
-  // },
+  {
+    name: "React Native",
+    href: "https://reactnative.dev/",
+    icon: <FaReact color="#00D8FF" />,
+  },
   {
     name: "Node.js",
     href: "https://nodejs.org/",
@@ -62,15 +70,30 @@ const skills = [
     icon: <SiGraphql color="#E535AB" />,
   },
   {
-    name: "Hasura",
-    href: "https://hasura.io/",
-    icon: <SiHasura color="#1EB4D4" />,
+    name: "AWS",
+    href: "https://aws.amazon.com/",
+    icon: <AWSIcon />,
   },
-  {
-    name: "Azure",
-    href: "https://portal.azure.com/",
-    icon: <SiMicrosoftazure color="#007fff" />,
-  },
+  // {
+  //   name: "Next.js",
+  //   href: "https://nextjs.org/",
+  //   icon: <TbBrandNextjs />,
+  // },
+  // {
+  //   name: "Redux",
+  //   href: "https://redux.js.org//",
+  //   icon: <ReduxIcon />,
+  // },
+  // {
+  //   name: "Hasura",
+  //   href: "https://hasura.io/",
+  //   icon: <SiHasura color="#1EB4D4" />,
+  // },
+  // {
+  //   name: "Azure",
+  //   href: "https://portal.azure.com/",
+  //   icon: <SiMicrosoftazure color="#007fff" />,
+  // },
   // {
   //   name: "Firebase",
   //   href: "https://firebase.google.com/",
