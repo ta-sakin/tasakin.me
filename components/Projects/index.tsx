@@ -10,6 +10,24 @@ export const Projects: FC = () => {
   const projects = useMemo(
     () => [
       {
+        title: "AI Fashion Try-On",
+        subtitle: t("projects.aiFashion.subtitle"),
+        description: t("projects.aiFashion.description"),
+        technologies: ["React", "TypeScript", "FastAPI", "Python", "Gemini AI", "shadcn/ui"],
+        externalLink: "",
+        githubLink: "",
+        imageLink: `/images/ai-fashion.png`,
+      },
+      {
+        title: "WhatsApp Catalog",
+        subtitle: t("projects.whatsappCatalog.subtitle"),
+        description: t("projects.whatsappCatalog.description"),
+        technologies: ["TypeScript", "WhatsApp Business API", "MongoDB"],
+        externalLink: "",
+        githubLink: "",
+        imageLink: `/images/whatsapp-catalog.png`,
+      },
+      {
         title: "YT-Chat",
         subtitle: t("projects.ytchat.subtitle"),
         description: t("projects.ytchat.description"),

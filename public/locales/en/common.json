@@ -14,6 +14,14 @@
     "title": "Projects",
     "description": "Here are some of my favourite projects that I've lead and developed collaborating with a team or alone. Most of the projects were build to address real-world scenarios.",
 
+    "aiFashion": {
+      "subtitle": "AI Fashion Virtual Try-On",
+      "description": "A full-stack virtual try-on application with AI-powered image generation using Gemini API."
+    },
+    "whatsappCatalog": {
+      "subtitle": "WhatsApp Business Catalog Integration",
+      "description": "Catalog management system enabling product uploads for WhatsApp Business with virtual try-on integration."
+    },
     "ytchat": {
       "subtitle": "Chat with Youtube Videos",
       "description": "An AI chatbot that allows users to chat with Youtube videos."

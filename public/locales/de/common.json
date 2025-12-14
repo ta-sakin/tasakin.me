@@ -1,0 +1,57 @@
+{
+  "headTitle": "Startseite | tasakin",
+  "header": "Startseite",
+  "hero": {
+    "title": "Hallo, ich bin Sakin!",
+    "p0": "Full Stack Entwickler",
+    "p1": "Software-Entwickler bei",
+    "des0": "Ich bin ein Software-Entwickler mit einem starken Fokus auf die Entwicklung modernster plattformübergreifender Anwendungen.",
+    "des1": "Ich liebe es, Probleme zu lösen und in Teams zusammenzuarbeiten, um hochwertige und ausgeklügelte Software zu entwickeln.",
+    "des2": "Obwohl ich immer offen bin, mich an jeden Tech-Stack anzupassen, bevorzuge ich React, NodeJS und TypeScript.",
+    "des3": "Derzeit lerne ich mehr über KI und Backend-Engineering."
+  },
+  "projects": {
+    "title": "Projekte",
+    "description": "Hier sind einige meiner Lieblingsprojekte, die ich allein oder im Team entwickelt habe. Die meisten Projekte wurden entwickelt, um reale Szenarien zu adressieren.",
+
+    "aiFashion": {
+      "subtitle": "KI-Mode Virtuelles Anprobieren",
+      "description": "Eine Full-Stack-Anwendung für virtuelles Anprobieren mit KI-gestützter Bildgenerierung mittels Gemini API."
+    },
+    "whatsappCatalog": {
+      "subtitle": "WhatsApp Business Katalog-Integration",
+      "description": "Katalog-Verwaltungssystem zur Produkthochladung für WhatsApp Business mit virtueller Anprobe-Integration."
+    },
+    "ytchat": {
+      "subtitle": "Mit YouTube-Videos chatten",
+      "description": "Ein KI-Chatbot, der es Benutzern ermöglicht, mit YouTube-Videos zu chatten."
+    },
+    "cms": {
+      "subtitle": "Beschwerdemanagementsystem",
+      "description": "Ein Social-Media-ähnliches Beschwerdemanagementsystem für Bürger"
+    },
+
+    "redditTimify": {
+      "subtitle": "Reddit Timify",
+      "description": "Finden Sie die beste Zeit zum Posten auf Reddit."
+    }
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "description": "Während ich gerne die neuesten Technologien annehme, sind dies die Tools, die ich in meiner täglichen Arbeit am häufigsten verwende."
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "description": "Ich hatte das Privileg, als Software-Entwickler Full-Stack-Webanwendungen bei diesem großartigen Unternehmen zu entwickeln"
+  },
+  "contact": {
+    "title": "Möchten Sie Kontakt aufnehmen?",
+    "description": "Ich schätze es sehr, wenn Menschen sich die Mühe machen, Kontakt aufzunehmen. Ich werde mich so schnell wie möglich bei Ihnen melden!"
+  },
+  "currently": "Derzeit",
+  "citation": {
+    "content": "Sakin debuggt in seinen Träumen",
+    "author": "— ChatGPT"
+  },
+  "footer": ""
+}

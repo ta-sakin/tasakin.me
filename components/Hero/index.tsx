@@ -5,7 +5,6 @@ import React, { FC } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { HandWave } from "./libs/HandWave";
-import { HeroLink } from "./libs/HeroLink";
 
 export const Hero: FC = () => {
   const { t } = useTranslation("common");
@@ -43,9 +42,9 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t("hero.p0")}
         <br />
-        {t("hero.p1")}{" "}
+        {/* {t("hero.p1")}{" "}
         <HeroLink title="Parentheses" href="https://www.parentheses.co.in" />
-        <br />
+        <br /> */}
       </p>
       <div className="flex mt-8">
         <MediaIcon

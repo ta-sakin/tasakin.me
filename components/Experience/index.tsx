@@ -18,12 +18,12 @@ export const Experience: FC = () => {
       {
         title: "Software Developer",
         place: "Kolkata, India",
-        date: "April 2023 - Now",
+        date: "April 2023 - December 2025",
       },
       {
         title: "Software Developer Intern",
         place: "Kolkata, India",
-        date: "Oct 2023 - Mar 2023",
+        date: "Oct 2022 - Mar 2023",
       },
     ],
     []

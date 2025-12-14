@@ -26,6 +26,7 @@ enum Themes {
 enum Languages {
   en = "en",
   bn = "bn",
+  de = "de",
 }
 
 const languages = [
@@ -33,6 +34,11 @@ const languages = [
     id: Languages.en,
     name: "EN",
     flag: "🇬🇧",
+  },
+  {
+    id: Languages.de,
+    name: "DE",
+    flag: "🇩🇪",
   },
   {
     id: Languages.bn,
