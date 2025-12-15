@@ -3,37 +3,33 @@
   "header": "Startseite",
   "hero": {
     "title": "Hallo, ich bin Sakin!",
-    "p0": "Full Stack Entwickler",
+    "p0": "Software-Entwickler",
     "p1": "Software-Entwickler bei",
-    "des0": "Ich bin ein Software-Entwickler mit einem starken Fokus auf die Entwicklung modernster plattformübergreifender Anwendungen.",
-    "des1": "Ich liebe es, Probleme zu lösen und in Teams zusammenzuarbeiten, um hochwertige und ausgeklügelte Software zu entwickeln.",
-    "des2": "Obwohl ich immer offen bin, mich an jeden Tech-Stack anzupassen, bevorzuge ich React, NodeJS und TypeScript.",
-    "des3": "Derzeit lerne ich mehr über KI und Backend-Engineering."
+    "des0": "Ich bin ein Software-Ingenieur mit starkem Fokus auf die Entwicklung leistungsstarker, plattformübergreifender Full-Stack-Anwendungen, die durch KI und moderne Entwicklungsframeworks unterstützt werden."
   },
   "projects": {
     "title": "Projekte",
     "description": "Hier sind einige meiner Lieblingsprojekte, die ich allein oder im Team entwickelt habe. Die meisten Projekte wurden entwickelt, um reale Szenarien zu adressieren.",
 
-    "aiFashion": {
-      "subtitle": "KI-Mode Virtuelles Anprobieren",
-      "description": "Eine Full-Stack-Anwendung für virtuelles Anprobieren mit KI-gestützter Bildgenerierung mittels Gemini API."
+    "tryOnAI": {
+      "subtitle": "TryOnAI Chatbot",
+      "description": "Ein virtueller KI-Chatbot zum Anprobieren von Kleidung, der nahtlos in Websites integriert werden kann."
     },
-    "whatsappCatalog": {
-      "subtitle": "WhatsApp Business Katalog-Integration",
-      "description": "Katalog-Verwaltungssystem zur Produkthochladung für WhatsApp Business mit virtueller Anprobe-Integration."
+    "tryOn": {
+      "subtitle": "TryOn Chrome-Erweiterung",
+      "description": "Eine Chrome-Erweiterung, mit der Sie Kleidung auf Amazon, Facebook, Instagram usw. mithilfe von KI virtuell anprobieren können."
+    },
+    "snipClip": {
+      "subtitle": "SnipClip",
+      "description": "Erhalten Sie Ihren Audio-/Videoclip aus einem Video (mit mehreren Sprechern), indem Sie ein Referenzaudio hinzufügen."
     },
     "ytchat": {
       "subtitle": "Mit YouTube-Videos chatten",
-      "description": "Ein KI-Chatbot, der es Benutzern ermöglicht, mit YouTube-Videos zu chatten."
+      "description": "Eine Plattform, die es Ihnen ermöglicht, mithilfe generativer KI mit YouTube-Videos zu chatten."
     },
     "cms": {
       "subtitle": "Beschwerdemanagementsystem",
-      "description": "Ein Social-Media-ähnliches Beschwerdemanagementsystem für Bürger"
-    },
-
-    "redditTimify": {
-      "subtitle": "Reddit Timify",
-      "description": "Finden Sie die beste Zeit zum Posten auf Reddit."
+      "description": "Leitete die Entwicklung eines Beschwerdemanagementsystems in Zusammenarbeit mit einem Studienkollegen, das es Gemeindemitgliedern ermöglicht, Beschwerden einzureichen, zu interagieren und zu verfolgen."
     }
   },
   "skills": {

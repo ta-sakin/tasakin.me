@@ -34,18 +34,15 @@ export const Hero: FC = () => {
         animate="visible"
       />
       <div className="flex items-center">
-        <h1 className="mt-6 mb-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-black-900 dark:text-white-900">
+        <h1 className="mt-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-black-900 dark:text-white-900">
           {t("hero.title")}
         </h1>
         <HandWave className="text-4xl md:text-5xl" />
       </div>
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t("hero.p0")}
-        <br />
-        {/* {t("hero.p1")}{" "}
-        <HeroLink title="Parentheses" href="https://www.parentheses.co.in" />
-        <br /> */}
       </p>
+
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
@@ -61,12 +58,6 @@ export const Hero: FC = () => {
       <div className="mt-10">
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
           {t("hero.des0")}
-        </p>
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des1")} {t("hero.des2")}
-        </p>
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des3")}
         </p>
       </div>
     </Container>

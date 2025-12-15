@@ -60,7 +60,7 @@ const skills = [
     icon: <MongoIcon />,
   },
   {
-    name: "Postgres",
+    name: "PostgreSQL",
     href: "https://www.postgresql.org/",
     icon: <PostgresIcon />,
   },
