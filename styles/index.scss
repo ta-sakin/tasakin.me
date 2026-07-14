@@ -11,3 +11,7 @@ html {
 html.dark {
   @apply bg-darkTheme;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

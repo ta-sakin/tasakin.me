@@ -20,31 +20,28 @@ export const ProjectCard: FC<Props> = ({
   return (
     <motion.div
       className={clsx(
-        "relative rounded-lg overflow-hidden dark:bg-gray-900 bg-whiteTheme",
+        "relative rounded-xl overflow-hidden dark:bg-gray-900 bg-whiteTheme h-full flex flex-col",
         className
       )}
       style={{
         boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.08)",
       }}
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.2 }}
     >
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-56 md:h-72 lg:h-80 overflow-hidden">
         <img
           className="object-cover w-full h-full"
           src={imageLink}
           alt={title}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
       </div>
-      <div className="px-6 py-5">
+      <div className="px-6 py-5 flex flex-col flex-1">
         <h3 className="text-lg font-bold md:text-xl dark:text-white-900 text-black-900">
           {title}
         </h3>
         <p className="mt-1 text-sm font-medium dark:text-white-500 text-black-700">
           {subtitle}
         </p>
-        <p className="mt-3 text-sm leading-relaxed dark:text-white-700 text-black-700">
+        <p className="mt-3 text-sm leading-relaxed dark:text-white-700 text-black-700 flex-1">
           {description}
         </p>
         <div className="flex flex-wrap gap-2 mt-4">
