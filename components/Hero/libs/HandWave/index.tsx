@@ -10,14 +10,14 @@ export const HandWave: FC<Props> = ({ className }: Props) => {
   useEffect(() => {
     let timers: NodeJS.Timeout[] = [];
     const timeout = setTimeout(() => {
-      const baseDelay = 1000;
+      const baseDelay = 200;
 
       timers = new Array(4)
         .fill(0)
         .map((_, i) =>
           setTimeout(() => setToRotated(i % 2 === 0), baseDelay + i * 200)
         );
-    }, 6000);
+    }, 1500);
 
     return () => {
       clearTimeout(timeout);

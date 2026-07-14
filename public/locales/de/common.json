@@ -1,48 +1,69 @@
 {
-  "headTitle": "Startseite | tasakin",
-  "header": "Startseite",
+  "headTitle": "Tahjib Al Sakin | Software-Ingenieur",
+  "header": "Sakin",
   "hero": {
     "title": "Hallo, ich bin Sakin!",
-    "p0": "Software-Entwickler",
-    "p1": "Software-Entwickler bei",
-    "des0": "Ich bin ein Software-Ingenieur mit starkem Fokus auf die Entwicklung leistungsstarker, plattformübergreifender Full-Stack-Anwendungen, die durch KI und moderne Entwicklungsframeworks unterstützt werden."
+    "p0": "Software-Ingenieur",
+    "p1": "Software-Ingenieur bei",
+    "des0": "Ich bin Software-Ingenieur und entwickle leistungsstarke Full-Stack-Anwendungen. Derzeit absolviere ich einen MSc in KI an der BTU Cottbus-Senftenberg."
   },
   "projects": {
     "title": "Projekte",
-    "description": "Hier sind einige meiner Lieblingsprojekte, die ich allein oder im Team entwickelt habe. Die meisten Projekte wurden entwickelt, um reale Szenarien zu adressieren.",
+    "description": "Ausgewählte Projekte — von KI-gestützten Tools bis hin zu Full-Stack-Plattformen für Tausende von Nutzern.",
 
     "tryOnAI": {
-      "subtitle": "TryOnAI Chatbot",
-      "description": "Ein virtueller KI-Chatbot zum Anprobieren von Kleidung, der nahtlos in Websites integriert werden kann."
+      "subtitle": "Virtueller Try-On Chatbot",
+      "description": "Ein KI-gestützter virtueller Chatbot zum Anprobieren von Kleidung, der nahtlos in jede Website integriert werden kann."
     },
     "tryOn": {
       "subtitle": "TryOn Chrome-Erweiterung",
-      "description": "Eine Chrome-Erweiterung, mit der Sie Kleidung auf Amazon, Facebook, Instagram usw. mithilfe von KI virtuell anprobieren können."
+      "description": "Eine Chrome-Erweiterung, mit der Sie mithilfe von KI-gestützter Bildgenerierung Kleidung auf Amazon, Facebook, Instagram und anderen Plattformen virtuell anprobieren können."
     },
     "snipClip": {
-      "subtitle": "SnipClip",
-      "description": "Erhalten Sie Ihren Audio-/Videoclip aus einem Video (mit mehreren Sprechern), indem Sie ein Referenzaudio hinzufügen."
+      "subtitle": "Audio-/Video-Clip-Extraktor",
+      "description": "Extrahieren Sie präzise Audio- oder Videoclips aus langen Aufnahmen mit mehreren Sprechern, indem Sie eine Referenz-Audiovorlage bereitstellen."
     },
     "ytchat": {
       "subtitle": "Mit YouTube-Videos chatten",
-      "description": "Eine Plattform, die es Ihnen ermöglicht, mithilfe generativer KI mit YouTube-Videos zu chatten."
+      "description": "Eine RAG-gestützte Plattform, mit der Sie mithilfe von Generativer KI natürliche Gespräche mit YouTube-Inhalten führen können."
     },
     "cms": {
       "subtitle": "Beschwerdemanagementsystem",
-      "description": "Leitete die Entwicklung eines Beschwerdemanagementsystems in Zusammenarbeit mit einem Studienkollegen, das es Gemeindemitgliedern ermöglicht, Beschwerden einzureichen, zu interagieren und zu verfolgen."
+      "description": "Eine Full-Stack-Beschwerdeplattform mit automatisierter Textklassifizierung, Echtzeit-Tracking und einem Admin-Portal."
     }
   },
   "skills": {
     "title": "Fähigkeiten",
-    "description": "Während ich gerne die neuesten Technologien annehme, sind dies die Tools, die ich in meiner täglichen Arbeit am häufigsten verwende."
+    "description": "Technologien und Tools, mit denen ich täglich über Frontend, Backend und Infrastruktur arbeite."
   },
   "experience": {
-    "title": "Erfahrung",
-    "description": "Ich hatte das Privileg, als Software-Entwickler Full-Stack-Webanwendungen bei diesem großartigen Unternehmen zu entwickeln"
+    "title": "Berufserfahrung",
+    "description": "Beeindruckende Software in großem Maßstab entwickeln.",
+    "role1": {
+      "title": "Software-Ingenieur",
+      "place": "Parentheses Labs · Remote",
+      "date": "Apr 2023 – Nov 2025",
+      "d1": "Entwurf einer Versandanalystik-Plattform mit über 1 Mio. Datensätzen täglich und 200%+ Leistungssteigerung bei Datenbankabfragen mit PostgreSQL.",
+      "d2": "Leitung der Entwicklung einer von Forbes vorgestellten App (iOS, Android, Web) mit Expo, Tamagui und Flask, inklusive KI-gestützter Funktionen und RBAC.",
+      "d3": "Aufbau eines KI-gestützten LMS mit In-App-Meetings, personalisierten Lernpfaden und KI-gestützter Kompetenzanalyse.",
+      "d4": "Teamleitung (4 Entwickler) für eine Prüfungsplattform mit über 10.000 Nutzern und Echtzeit-Überwachung."
+    },
+    "role2": {
+      "title": "Software-Ingenieur Praktikant",
+      "place": "Parentheses Labs · Remote",
+      "date": "Okt 2022 – Mär 2023",
+      "d1": "Mitwirkung an einem internen Bewerbermanagementsystem zur Automatisierung von Interviews für über 100 Kandidaten.",
+      "d2": "Erwerb der Stripe-Entwicklerzertifizierung, beigetragen zur offiziellen Stripe-Partnerschaft des Unternehmens.",
+      "d3": "Erstellung von Code/No-Code-Lösungen mit Bubble.io, JavaScript und Node.js."
+    }
+  },
+  "education": {
+    "title": "Bildung",
+    "description": "Formale Bildung und kontinuierliches Lernen."
   },
   "contact": {
-    "title": "Möchten Sie Kontakt aufnehmen?",
-    "description": "Ich schätze es sehr, wenn Menschen sich die Mühe machen, Kontakt aufzunehmen. Ich werde mich so schnell wie möglich bei Ihnen melden!"
+    "title": "Kontakt aufnehmen",
+    "description": "Ich bin immer offen für interessante Gespräche und Zusammenarbeiten. Scheuen Sie sich nicht, mich anzusprechen!"
   },
   "currently": "Derzeit",
   "citation": {

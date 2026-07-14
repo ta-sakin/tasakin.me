@@ -2,45 +2,38 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaReact } from "react-icons/fa";
+import { FaDocker, FaReact } from "react-icons/fa";
 import {
+  SiDjango,
   SiGraphql,
-  // SiHasura,
   SiJavascript,
+  SiNextdotjs,
   SiNodedotjs,
-  // SiMicrosoftazure,
+  SiPython,
 } from "react-icons/si";
-// import { TbBrandNextjs } from "react-icons/tb";
 import { useInView } from "react-intersection-observer";
 
-import {
-  AWSIcon,
-  MongoIcon,
-  PostgresIcon,
-  PythonIcon,
-  TsIcon,
-} from "./libs/Icons";
+import { AWSIcon, MongoIcon, PostgresIcon, TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
   {
-    name: "Typescript",
+    name: "TypeScript",
     href: "https://www.typescriptlang.org/",
     icon: <TsIcon />,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     icon: <SiJavascript color="#f7df1e" />,
   },
   {
     name: "Python",
     href: "https://www.python.org/",
-    icon: <PythonIcon />,
+    icon: <SiPython color="#3776AB" />,
   },
-
   {
-    name: "React.js",
+    name: "React",
     href: "https://reactjs.org/",
     icon: <FaReact color="#00D8FF" />,
   },
@@ -50,19 +43,29 @@ const skills = [
     icon: <FaReact color="#00D8FF" />,
   },
   {
+    name: "Next.js",
+    href: "https://nextjs.org/",
+    icon: <SiNextdotjs color="#000000" className="dark:!fill-white" />,
+  },
+  {
     name: "Node.js",
     href: "https://nodejs.org/",
     icon: <SiNodedotjs color="#539E43" />,
   },
   {
-    name: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: <MongoIcon />,
+    name: "Django",
+    href: "https://www.djangoproject.com/",
+    icon: <SiDjango color="#092E20" className="dark:!fill-white" />,
   },
   {
     name: "PostgreSQL",
     href: "https://www.postgresql.org/",
     icon: <PostgresIcon />,
+  },
+  {
+    name: "MongoDB",
+    href: "https://www.mongodb.com/",
+    icon: <MongoIcon />,
   },
   {
     name: "GraphQL",
@@ -74,31 +77,11 @@ const skills = [
     href: "https://aws.amazon.com/",
     icon: <AWSIcon />,
   },
-  // {
-  //   name: "Next.js",
-  //   href: "https://nextjs.org/",
-  //   icon: <TbBrandNextjs />,
-  // },
-  // {
-  //   name: "Redux",
-  //   href: "https://redux.js.org//",
-  //   icon: <ReduxIcon />,
-  // },
-  // {
-  //   name: "Hasura",
-  //   href: "https://hasura.io/",
-  //   icon: <SiHasura color="#1EB4D4" />,
-  // },
-  // {
-  //   name: "Azure",
-  //   href: "https://portal.azure.com/",
-  //   icon: <SiMicrosoftazure color="#007fff" />,
-  // },
-  // {
-  //   name: "Firebase",
-  //   href: "https://firebase.google.com/",
-  //   icon: <FirebaseIcon />,
-  // },
+  {
+    name: "Docker",
+    href: "https://www.docker.com/",
+    icon: <FaDocker color="#2496ED" />,
+  },
 ];
 
 export const Skills: FC = () => {
@@ -110,7 +93,7 @@ export const Skills: FC = () => {
     if (inView) {
       controls.start((i) => ({
         opacity: 1,
-        transition: { delay: (i + 2) * 0.2 },
+        transition: { delay: (i + 2) * 0.1 },
       }));
     }
   }, [controls, inView]);
@@ -123,7 +106,7 @@ export const Skills: FC = () => {
     >
       <Container>
         <div
-          className="max-w-2xl mt-8 grid grid-cols-2 sm:grid-cols-5 gap-6"
+          className="max-w-3xl mt-8 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-6"
           ref={ref}
         >
           {skills.map((skill, i) => (

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import clsx from "clsx";
 import { Container, Logo } from "components";
 import { useOnClickOutside } from "lib";
@@ -99,7 +98,7 @@ export const Header: FC = () => {
   return (
     <div
       className={clsx(
-        "fixed z-20 w-full opacity-90 bg-lightTheme dark:bg-darkTheme transition-top duration-300",
+        "fixed z-20 w-full opacity-90 backdrop-blur-md bg-lightTheme/80 dark:bg-darkTheme/80 transition-top duration-300",
         visible ? "top-0" : "-top-28"
       )}
     >

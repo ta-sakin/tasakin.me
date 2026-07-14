@@ -5,6 +5,7 @@ export interface Props {
   place: string;
   date: string;
   custom: number;
+  description?: string[];
   last?: boolean;
   first?: boolean;
   cancelled?: boolean;

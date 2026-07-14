@@ -2,40 +2,32 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useMdScreen } from "lib";
 import { useTranslation } from "next-i18next";
-import React, { FC, useEffect } from "react";
+import React, { FC, useEffect, useMemo } from "react";
 import { useInView } from "react-intersection-observer";
 
-import { Item } from "./libs/Item";
+import { Item } from "../Experience/libs/Item";
 
-export const Experience: FC = () => {
+export const Education: FC = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
   const mdScreen = useMdScreen();
   const { t } = useTranslation("common");
 
-  const experience = [
-    {
-      title: t("experience.role1.title"),
-      place: t("experience.role1.place"),
-      date: t("experience.role1.date"),
-      description: [
-        t("experience.role1.d1"),
-        t("experience.role1.d2"),
-        t("experience.role1.d3"),
-        t("experience.role1.d4"),
-      ],
-    },
-    {
-      title: t("experience.role2.title"),
-      place: t("experience.role2.place"),
-      date: t("experience.role2.date"),
-      description: [
-        t("experience.role2.d1"),
-        t("experience.role2.d2"),
-        t("experience.role2.d3"),
-      ],
-    },
-  ];
+  const education = useMemo(
+    () => [
+      {
+        title: "MSc in Artificial Intelligence",
+        place: "Brandenburgische Technische Universität Cottbus-Senftenberg",
+        date: "Oct 2025 – Present · Cottbus, Germany",
+      },
+      {
+        title: "BSc in Computer Science & Engineering",
+        place: "International Islamic University Chittagong",
+        date: "Apr 2018 – Dec 2022 · Chattogram, Bangladesh",
+      },
+    ],
+    []
+  );
 
   useEffect(() => {
     if (inView) {
@@ -49,32 +41,32 @@ export const Experience: FC = () => {
   return (
     <Section
       className="mt-20 mb-16 md:mt-28"
-      title={t("experience.title")}
-      description={t("experience.description")}
+      title={t("education.title")}
+      description={t("education.description")}
     >
       <Container className="mt-14">
         <div className="flex justify-between max-w-screen-sm" ref={ref}>
           {mdScreen ? (
             <>
               <div>
-                {experience.slice(0, 3).map((item, i) => (
+                {education.slice(0, 3).map((item, i) => (
                   <Item
                     {...item}
                     key={i}
                     first={i === 0}
-                    last={i === experience.slice(0, 3).length - 1}
+                    last={i === education.slice(0, 3).length - 1}
                     controls={controls}
                     custom={i}
                   />
                 ))}
               </div>
               <div>
-                {experience.slice(3).map((item, i) => (
+                {education.slice(3).map((item, i) => (
                   <Item
                     {...item}
                     key={i}
                     first={i === 0}
-                    last={i === experience.slice(3).length - 1}
+                    last={i === education.slice(3).length - 1}
                     controls={controls}
                     custom={i}
                   />
@@ -83,13 +75,13 @@ export const Experience: FC = () => {
             </>
           ) : (
             <div>
-              {experience.map((item, i) => (
+              {education.map((item, i) => (
                 <Item
                   {...item}
                   key={i}
                   first={i === 0}
                   controls={controls}
-                  last={i === experience.length - 1}
+                  last={i === education.length - 1}
                   custom={i}
                 />
               ))}

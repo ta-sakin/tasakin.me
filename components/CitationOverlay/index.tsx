@@ -32,7 +32,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
         },
       }}
       transition={{
-        duration: 0.6,
+        duration: 0.4,
       }}
       initial="initial"
       animate={citation ? "initial" : "invisible"}
@@ -43,8 +43,8 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           initial="initial"
           animate="visible"
           transition={{
-            delay: 0.6,
-            duration: 0.5,
+            delay: 0.2,
+            duration: 0.3,
           }}
         >
           <FaceIcon className="font-extrabold w-7 md:ml-auto dark:text-white-900 text-black-900" />
@@ -55,7 +55,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           initial="initial"
           animate="visible"
           transition={{
-            delay: 0.1,
+            delay: 0.05,
             duration: 0.2,
           }}
         >
@@ -67,8 +67,8 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           animate="visible"
           variants={textVariants}
           transition={{
-            delay: 0.5,
-            duration: 0.4,
+            delay: 0.15,
+            duration: 0.3,
           }}
         >
           {t("citation.author")}

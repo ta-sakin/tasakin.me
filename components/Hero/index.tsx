@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 import { HandWave } from "./libs/HandWave";
 
@@ -13,7 +14,7 @@ export const Hero: FC = () => {
     <Container className="pt-24 md:pt-32">
       <motion.img
         src="/images/me.png"
-        alt="A beautiful face"
+        alt="Tahjib Al Sakin"
         className="overflow-hidden rounded-full w-28 h-28 md:w-32 md:h-32 mt-36"
         variants={{
           hidden: {
@@ -28,7 +29,7 @@ export const Hero: FC = () => {
         transition={{
           damping: 5,
           mass: 1,
-          delay: 6,
+          delay: 1.4,
         }}
         initial="hidden"
         animate="visible"
@@ -53,6 +54,10 @@ export const Hero: FC = () => {
           icon={<FaLinkedin className="w-6 h-6 md:w-7 md:h-7" />}
           href="https://www.linkedin.com/in/ta-sakin/"
           className="mr-4"
+        />
+        <MediaIcon
+          icon={<HiOutlineMail className="w-6 h-6 md:w-7 md:h-7" />}
+          href="mailto:tahjib.alsakin@gmail.com"
         />
       </div>
       <div className="mt-10">

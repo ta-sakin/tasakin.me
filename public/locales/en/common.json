@@ -1,48 +1,69 @@
 {
-  "headTitle": "Home | tasakin",
-  "header": "Home",
+  "headTitle": "Tahjib Al Sakin | Software Engineer",
+  "header": "Sakin",
   "hero": {
     "title": "Hi, I'm Sakin!",
-    "p0": "Software Developer",
-    "p1": "Software Developer at",
-    "des0": "I'm a Software Engineer with a keen focus on building high-performance, full-stack cross-platform applications powered by AI and modern development frameworks."
+    "p0": "Software Engineer",
+    "p1": "Software Engineer at",
+    "des0": "I'm a Software Engineer building high-performance, full-stack applications. Currently pursuing MSc in AI at BTU Cottbus-Senftenberg."
   },
   "projects": {
     "title": "Projects",
-    "description": "Here are some of my favourite projects that I've lead and developed collaborating with a team or alone. Most of the projects were build to address real-world scenarios.",
+    "description": "Selected projects I've built — from AI-powered tools to full-stack platforms serving thousands of users.",
 
     "tryOnAI": {
-      "subtitle": "TryOnAI Chatbot",
-      "description": "A virtual clothing try-on AI chatbot that can be seamlessly integrated into websites."
+      "subtitle": "Virtual Try-On Chatbot",
+      "description": "An AI-powered virtual clothing try-on chatbot that can be seamlessly integrated into any website, enabling users to visualize how clothes look on them before purchasing."
     },
     "tryOn": {
       "subtitle": "TryOn Chrome Extension",
-      "description": "A chrome extension that lets you virtually try on clothes on Amazon, Facebook, Instagram, etc., using AI."
+      "description": "A Chrome extension that lets you virtually try on clothes on Amazon, Facebook, Instagram, and other platforms using AI-powered image generation."
     },
     "snipClip": {
-      "subtitle": "SnipClip",
-      "description": "Get your audio/video clip from a video (with multiple speakers) by adding a reference audio."
+      "subtitle": "Audio/Video Clip Extractor",
+      "description": "Extract precise audio or video clips from long recordings with multiple speakers by simply providing a reference audio sample — powered by speaker diarization."
     },
     "ytchat": {
-      "subtitle": "Chat with Youtube Videos",
-      "description": "A platform that lets you chat with YouTube videos using Generative AI."
+      "subtitle": "Chat with YouTube Videos",
+      "description": "A RAG-powered platform that lets you have natural conversations with YouTube video content using Generative AI, semantic search, and vector embeddings."
     },
     "cms": {
       "subtitle": "Complaint Management System",
-      "description": "Led the development of a complaint management system in collaboration with a college mate that enables community members to submit, interact, and track complaints."
+      "description": "A full-stack complaint management platform with automated text classification using logistic regression, real-time tracking, and an admin portal for community-driven issue resolution."
     }
   },
   "skills": {
     "title": "Skills",
-    "description": "While I eagerly embrace any latest technologies, these are the tools I have mostly utilized in my day-to-day work."
+    "description": "Technologies and tools I work with day-to-day across frontend, backend, and infrastructure."
   },
   "experience": {
     "title": "Experience",
-    "description": "I've been privileged to work as a Software developer delivering full-stack web applications at this amazing company"
+    "description": "Building impactful software at scale.",
+    "role1": {
+      "title": "Software Engineer",
+      "place": "Parentheses Labs · Remote",
+      "date": "Apr 2023 – Nov 2025",
+      "d1": "Architected a shipping analytics platform handling 1M+ daily records with 200%+ query performance improvement using PostgreSQL.",
+      "d2": "Led development of a Forbes-featured app (iOS, Android, Web) using Expo, Tamagui, and Flask with AI-powered features and RBAC.",
+      "d3": "Built an AI-powered LMS with in-app meetings, personalized learning paths, and AI-driven skill analysis.",
+      "d4": "Led a team of 4 to develop an exam-taking platform supporting 10,000+ users with real-time monitoring."
+    },
+    "role2": {
+      "title": "Software Engineer Intern",
+      "place": "Parentheses Labs · Remote",
+      "date": "Oct 2022 – Mar 2023",
+      "d1": "Collaborated on an internal Applicant Tracking System automating interviews for 100+ candidates.",
+      "d2": "Earned Stripe Developer Certification, contributing to company's official Stripe partnership.",
+      "d3": "Created code/no-code solutions using Bubble.io, JavaScript, and Node.js."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "description": "Formal education and continuous learning."
   },
   "contact": {
-    "title": "Want to connect?",
-    "description": "I highly appreciate when people make an effort to get in touch. I'll make sure to get back to you as soon as possible!"
+    "title": "Let's Connect",
+    "description": "I'm always open to interesting conversations and collaborations. Feel free to reach out!"
   },
   "currently": "Currently",
   "citation": {

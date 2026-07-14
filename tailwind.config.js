@@ -2,7 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class", // whenever dark mode is present in html root, dark mode will be applied.
+  darkMode: "class",
   theme: {
     colors: {
       darkTheme: "#171a23",
@@ -17,6 +17,7 @@ module.exports = {
         900: "#363B49",
       },
       lightTheme: "#ffffff",
+      whiteTheme: "#f5f5f5",
       blue: {
         700: "#7899FB",
         900: "#3C6CFF",

@@ -1,6 +1,7 @@
 export * from "./CitationOverlay";
 export * from "./Contact";
 export * from "./Container";
+export * from "./Education";
 export * from "./Experience";
 export * from "./Footer";
 export * from "./Header";

@@ -13,7 +13,7 @@ export const Projects: FC = () => {
         title: "TryOnAI Chatbot",
         subtitle: t("projects.tryOnAI.subtitle"),
         description: t("projects.tryOnAI.description"),
-        technologies: ["React", "Express"],
+        technologies: ["React", "Express", "Cloudflare R2"],
         externalLink: "",
         githubLink: "",
         imageLink: `/images/ai-fashion.png`,
@@ -22,7 +22,7 @@ export const Projects: FC = () => {
         title: "TryOn",
         subtitle: t("projects.tryOn.subtitle"),
         description: t("projects.tryOn.description"),
-        technologies: ["React", "Express"],
+        technologies: ["React", "Express", "AI"],
         externalLink: "",
         githubLink: "",
         imageLink: `/images/tryon-extension.png`,
@@ -51,22 +51,6 @@ export const Projects: FC = () => {
         githubLink: "https://github.com/ta-sakin/yt-chat",
         imageLink: `/images/ytchat.png`,
       },
-      {
-        title: "Complaint Management System",
-        subtitle: t("projects.cms.subtitle"),
-        description: t("projects.cms.description"),
-        technologies: [
-          "React",
-          "Express",
-          "MongoDB",
-          "Firebase",
-          "Natural.js",
-          "Cloudinary",
-        ],
-        externalLink: "https://cms-app-9ed7b.web.app",
-        githubLink: "https://github.com/ta-sakin/cms-app",
-        imageLink: `/images/cms.png`,
-      },
     ],
     [t]
   );
@@ -77,9 +61,9 @@ export const Projects: FC = () => {
       title={t("projects.title")}
       description={t("projects.description")}
     >
-      <div className="px-4 mx-auto mt-10 md:mt-20 md:px-8 max-w-screen-lg">
+      <div className="px-4 mx-auto mt-10 md:mt-16 md:px-8 max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {projects.map((project, i) => (
-          <ProjectCard key={i} rightShift={i % 2 === 0} {...project} />
+          <ProjectCard key={i} {...project} />
         ))}
       </div>
     </Section>

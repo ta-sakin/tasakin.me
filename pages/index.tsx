@@ -1,6 +1,7 @@
 import {
   CitationOverlay,
   Contact,
+  Education,
   Experience,
   Footer,
   Header,
@@ -22,8 +23,8 @@ const IndexPage = () => {
 
   useEffect(() => {
     const ids = [
-      setTimeout(() => setCitation(false), 1500),
-      setTimeout(() => setMain(true), 2000),
+      setTimeout(() => setCitation(false), 800),
+      setTimeout(() => setMain(true), 1200),
     ];
 
     return () => ids.forEach((id) => clearTimeout(id));
@@ -56,6 +57,7 @@ const IndexPage = () => {
         <Hero />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
         <Contact />
         <Footer />

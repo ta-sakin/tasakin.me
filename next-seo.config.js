@@ -1,12 +1,13 @@
 export default {
-  title: "Tahjib Al Sakin | Software Developer",
-  description: "Home of a full-stack developer dedicated to automating stuffs.",
+  title: "Tahjib Al Sakin | Software Engineer",
+  description:
+    "Software Engineer building high-performance, full-stack applications. MSc AI at BTU Cottbus-Senftenberg.",
   canonical: "https://tasakin.me",
   openGraph: {
     url: "https://tasakin.me",
-    title: "Tahjib Al Sakin | Software Developer",
+    title: "Tahjib Al Sakin | Software Engineer",
     description:
-      "Home of a full-stack developer dedicated to automating stuffs.",
+      "Software Engineer building high-performance, full-stack applications. MSc AI at BTU Cottbus-Senftenberg.",
     images: [
       {
         url: "https://tasakin.me/og-quote.png",
@@ -15,6 +16,6 @@ export default {
         alt: "Sakin debugs in his dreams.",
       },
     ],
-    site_name: "Tahjib Al Sakin | Software Developer",
+    site_name: "Tahjib Al Sakin | Software Engineer",
   },
 };
